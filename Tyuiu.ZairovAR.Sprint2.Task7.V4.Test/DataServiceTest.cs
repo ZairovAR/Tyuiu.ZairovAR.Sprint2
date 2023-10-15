@@ -11,7 +11,7 @@ namespace Tyuiu.ZairovAR.Sprint2.Task7.V4.Test
         {
             DataService ds = new DataService();
             double x = 1;
-            double y = 1;
+            double y = 12;
 
             bool res = ds.CheckDotInShadedArea(x, y);
             bool wait = true;
